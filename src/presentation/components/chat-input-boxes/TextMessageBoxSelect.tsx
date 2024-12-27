@@ -85,7 +85,7 @@ export const TextMessageBoxSelect = ({ onSendMessage, placeholder, disableCorrec
         <div className="ml-4">
             <button 
                 className="btn-primary"
-                disabled={ !selectedFile }
+                // disabled={ !selectedFile }
             >
                 {
                     ( !selectedFile )

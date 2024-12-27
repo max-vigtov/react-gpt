@@ -18,8 +18,7 @@ export const ProsConsPage = () => {
   
   const { ok, content } = await prosConsUseCase( text );
   
-
-	setIsLoading( false );
+  setIsLoading( false );
 
   if ( !ok ) return;
     
