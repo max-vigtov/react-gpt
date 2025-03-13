@@ -16,10 +16,6 @@ export const TextMessageBoxFile = ({ onSendMessage, placeholder, disableCorrecti
   const [selectedFile, setSelectedFile] = useState<File | null>()
   const inputFileRef = useRef<HTMLInputElement>(null);
 
-
-
-
-
   const handleSendMessage = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
@@ -64,7 +60,7 @@ export const TextMessageBoxFile = ({ onSendMessage, placeholder, disableCorrecti
             type="text" 
             autoFocus
             name="message"
-            className="flex w-full border rounded-xl text-gray-800 focus:outline-none focus:border-indigo-300 pl-4 h-10"
+            className="flex w-full border rounded-xl text-gray-800 focus:outline-none focus:border-blue-300 pl-4 h-10"
             placeholder={ placeholder }
             autoComplete={ disableCorrections ? 'on': 'off' }
             autoCorrect={ disableCorrections ? 'on': 'off' }
