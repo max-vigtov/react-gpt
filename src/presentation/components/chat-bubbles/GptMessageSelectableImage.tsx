@@ -55,7 +55,7 @@ export const GptMessageSelectableImage = ({ imageUrl, onImageSelected }: Props) 
     setIsDrawing(false);
     const canvas = canvasRef.current!;
     const url = canvas.toDataURL("image/png");
-    // console.log({ url });
+     console.log({ url });
     // https://jaredwinick.github.io/base64-image-viewer/
     onImageSelected && onImageSelected(url);
 

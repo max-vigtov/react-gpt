@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { GptMessage, GptMessageImage, GptMessageSelectableImage, MyMessage, TextMessageBox, TypingLoader } from "../../components";
+import { GptMessage, GptMessageSelectableImage, MyMessage, TextMessageBox, TypingLoader } from "../../components";
 import { imageGenerationUseCase, imageVariationUseCase } from "../../../core/use-cases";
 
 interface Message {
@@ -19,8 +19,8 @@ export const ImageTunningPage = () => {
       isGpt: true,
       text: 'Imagen base',
       info: {
-        imageUrl: 'http://localhost:3000/gpt/image-generation/1741826714333.png',
-        alt: 'Imagen base'
+        alt: 'Imagen base',
+        imageUrl: 'http://localhost:3000/gpt/image-generation/1741826714333.png'
       }
     }
   ]);
