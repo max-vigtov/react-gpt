@@ -35,27 +35,12 @@ npm install
 
 Development mode:
 ```bash
-npm run dev
+yarm dev
 ```
 
 Build for production:
 ```bash
-npm run build
-```
-
-Preview production build:
-```bash
-npm run preview
-```
-
-## 🧪 Testing & Quality
-
-```bash
-# Linting
-npm run lint
-
-# Type checking
-npm run build
+yarn build
 ```
 
 ## ��️ Architecture
