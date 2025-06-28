@@ -20,18 +20,15 @@ export const ImageTunningPage = () => {
       text: 'Imagen base',
       info: {
         alt: 'Imagen base',
-        imageUrl: 'http://localhost:3000/gpt/image-generation/1741826714333.png'
+        imageUrl: 'http://localhost:3000/gpt/image-generation/1742535086761.png'
       }
     }
   ]);
 
   const [originalImageAndMask, setOriginalImageAndMask] = useState({
-    original: undefined as
-      | string
-      | undefined,
+    original: undefined as | string | undefined,
     mask: undefined as string | undefined,
   })
-
 
   const handleVariation = async() => {
     setIsLoading(true);
@@ -71,8 +68,8 @@ export const ImageTunningPage = () => {
       info: {
         imageUrl: imageInfo.url,
         alt: imageInfo.alt
-    } 
-  }]);
+      } 
+    }]);
   }
 
   return (
